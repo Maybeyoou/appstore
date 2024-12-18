@@ -4,7 +4,7 @@ from flask import Flask, jsonify, send_from_directory
 app = Flask(__name__)
 
 # Абсолютный путь к папке, где хранятся приложения
-BASE_DIR = r"C:\prog\webstoreserver"
+BASE_DIR = "/root/appstore"
 APPS_DIR = os.path.join(BASE_DIR, "apps")
 
 # Список приложений
